@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="messages.css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+   
+    <title>Messages</title>
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-database.js"></script>
+
+    <!-- Not sure if this is needed.
+    <script src="https://facepage-29aec.firebaseio.com/">
+    </script>
+	-->
+    <script src="firebase.js"></script>
+    
+    <script src="MainPage.js"></script>
+    <script src="Database.js"></script> 
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <form action="https://fgakemsn.apps.lair.io/Chat-Apperino/MainPage.html?_sl_timestamp=1528360469372">
+    </form>
+    <style>
+</style>
+</head>
+<body>
+
+<h2>Chat Messages</h2>
+<a href="MainPage.html">Back</a>
+    
+<input type="text" name="content" id="input">
+<input type="submit" onclick="addMessage()" \>
+<p id="mainChat" />
+    
+</body>
+</html>
